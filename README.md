@@ -2,5 +2,5 @@
 
 ## Projeto realizado no final do 2 semestre.
 
-##Técnologias:
+## Tecnologias:
 - Java, JSP, Servlets, Bootstrap 5, SweetAlert.
