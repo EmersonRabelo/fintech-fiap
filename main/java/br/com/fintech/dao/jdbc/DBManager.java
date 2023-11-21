@@ -9,11 +9,11 @@ public class DBManager {
 		
 		Connection conexao = null;
 		
-		String port = "1521";
-		String sid = "orcl";
-		String url = "jdbc:oracle:thin:@oracle.fiap.com.br:"+port+":"+sid;
-		String user = "RM97196";
-		String pwd = "130898";
+		String port = "";
+		String sid = "";
+		String url = "";
+		String user = "";
+		String pwd = "";
 		
 		try {
 			
