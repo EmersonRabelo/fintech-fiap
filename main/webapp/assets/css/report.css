@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.result-table > tbody > tr > td:first-child {
+	text-align: center !important;
+	padding: 8px;
+}
+
+.result-table > tbody > tr > td:last-child {
+	text-align: center !important;
+}

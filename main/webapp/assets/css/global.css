@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+:root {
+	--light-grey: #F2F2F2;
+	--green-default: #49B073;
+	--white: #FFF;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	width: 100%;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+		
+}
+
+.result-list {
+	width: 98vw;
+	height: 60vh;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.result {
+	height: auto;
+	width: 50vw;
+	
+	padding-right: 10px;
+	margin: 10px;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	overflow-y: auto;
+
+}
+
+.result-table {
+    text-align: center;
+
+    border-collapse: collapse; 
+    
+    margin-bottom: min(100px, 100px);
+}
+
+.result-table > thead {
+	position: sticky;
+    top: 0;
+}
+
+.result-table > tbody > tr > td:first-child {
+	text-align: left;
+	padding: 8px;
+}
+
+.result-table > tbody > tr > td:last-child {
+	text-align: right;
+}
+
+.add_income {
+	background-color: transparent; 
+	border: none;
+}
+
+.add_income > span {
+	font-size: 48px;
+    color: var(--green-default);
+}
+
+.add_income:active > span {
+	color: var(--light-grey);
+}
+
+
+
+.navbar-light {
+	background-color: var(--green-default) !important;
+}
+
+.active {
+	color: var(--white) !important;
+	font-weight: 600;
+}
+
+.nav-link{
+	color: var(--light-grey);
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+}
+      
+/* Track */
+::-webkit-scrollbar-track {
+	background: gainsboro;
+	border-radius: 5px;
+}
+      
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: black;
+	border-radius: 5px;
+}
+      
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

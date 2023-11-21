@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600;700&display=swap");
+
+:root {
+	--green: #49b073;
+}
+
+html {
+	font-family: "Inter";
+}
+
+.main-container {
+	display: flex;
+	width: 100dvw;
+	height: 100dvh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-title{
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #3A3A3A;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	width: 30%;
+}
+
+@media (max-width: 767px){
+  .form {
+    width: 50%;
+  }
+}
+
+.form-field-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 0.4rem;
+}
+
+.form-label {
+	text-align: center;
+	width: 100%;
+}
+
+.form-control {
+	background-color: #d9d9d9;
+}
+
+.forgot-password-btn {
+	color: #3a3a3a;
+	text-decoration: none;
+	transition: scale 0.1s ease-out;
+}
+
+.forgot-password-btn:hover {
+	scale: 1.02;
+}
+
+.btn-success {
+	width: 12rem;
+	background-color: var(--green);
+	transition: scale 0.1s ease-out;
+	border: none;
+}
+
+.btn-success:hover {
+	background-color: var(--green);
+	scale: 1.05;
+}
+
+.sign-up-btn {
+	color: #3a3a3a;
+	text-decoration: none;
+	transition: scale 0.1s ease-out;
+	text-align: center;
+}
+
+.sign-up-btn:hover {
+	scale: 1.02;
+}
